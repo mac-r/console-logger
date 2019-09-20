@@ -28,7 +28,7 @@ Add this at the beginning of your `html` template, which serves all other bundle
 
 ```html
 <meta property="console:server" content="ws://127.0.0.1:8081" />
-<script src="https://www.unpkg.com/browse/@mac-r/console-logger@1.0.1/dist/console-logger.min.js"></script>
+<script src="https://www.unpkg.com/@mac-r/console-logger@1.0.1/dist/console-logger.min.js"></script>
 ```
 
 Then run the following command in your terminal:
