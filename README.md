@@ -19,8 +19,10 @@ After a simple integration `console.log` output will go to the terminal window s
 ## Installation
 
 ```
-npm install -g @mac-r/console-logger
+npm install -g @mac-r/console-logger nanoid
 ```
+
+> `nanoid` will be added to dependencies in the next patch 😅
 
 ## Usage
 
