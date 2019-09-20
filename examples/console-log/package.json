@@ -1,0 +1,7 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "serve:logger": "node server.js",
+    "serve:website": "http-server"
+  }
+}

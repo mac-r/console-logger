@@ -1,0 +1,53 @@
+{
+  "name": "@mac-r/console-logger",
+  "version": "1.0.1",
+  "main": "./lib/index.js",
+  "bin": {
+    "console-logger": "./lib/index.js"
+  },
+  "files": [
+    "dist/console-logger.min.js",
+    "lib"
+  ],
+  "scripts": {
+    "build:cli": "rm -rf dist && mkdir dist && uglifyjs cli/* -o dist/console-logger.min.js --compress --mangle",
+    "watch:cli": "watch 'yarn build:cli' ./cli/",
+    "serve:cli": "http-server ./dist/ -p 8079",
+    "serve:logger": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mac-r/console-logger.git"
+  },
+  "author": "Max Makarochkin",
+  "homepage": "https://github.com/mac-r/console-logger.git",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "freeport": "^1.0.5",
+    "http-server": "^0.11.1",
+    "mocha": "^5.0.5",
+    "nanoid": "^1.0.2",
+    "uglify-js": "^3.5.2",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "ws": "^5.1.1"
+  },
+  "description": "Print `console.log` to your terminal, when normal `console.log` is hard to reach.",
+  "bugs": {
+    "url": "https://github.com/mac-r/console-logger/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "logger",
+    "websocket",
+    "devtool",
+    "dev"
+  ]
+}
