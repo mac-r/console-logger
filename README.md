@@ -1,6 +1,6 @@
 # 📝 Console Logger
 
-Console logger is a development tool, that makes web developers more productive. It prints `console.log` to your terminal when normal `console.log` is out of reach.
+Console logger is a development tool, that makes web developers more productive. It prints `console.log` to your terminal when development console is out of reach.
 
 ## Introduction
 
