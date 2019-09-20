@@ -10,7 +10,7 @@ Many people like to debug code using `console.log`, but sometimes it is not poss
   - Hybrid mobile apps (Ionic, etc.)
   - etc.
 
-I made this development tool to solve this problem.
+I made a development tool to solve those problems.
 
 After a simple integration `console.log` output will go to the terminal window so you can enjoy using it again.
 
