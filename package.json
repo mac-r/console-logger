@@ -32,7 +32,7 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "ws": "^5.1.1"
+    "ws": "^7.4.6"
   },
   "description": "Print `console.log` to your terminal, when normal `console.log` is hard to reach.",
   "bugs": {
